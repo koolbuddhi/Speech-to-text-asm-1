@@ -1,4 +1,4 @@
-# AI Medical Transcription & Analysis
+# AI Medical Transcription & Analysis - Improved version 
 
 🔑 **[Sign up for AssemblyAI's API](https://www.assemblyai.com/?utm_source=github&utm_medium=referral&utm_campaign=smitha)** to get a free API key and $50 in credits. 🔑
 
