@@ -36,6 +36,10 @@
                 <p><span class="tests">Tests & Treatments</span></p>
             </div>
         </div>
+        <select id="transcriptionMode">
+            <option value="realtime">Real-time Mode</option>
+            <option value="async">Async Mode</option>
+        </select>
     </div>
     <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
     <script>
@@ -57,7 +61,8 @@
                 toggleBtn.classList.remove('mic-on');
                 toggleBtn.classList.add('mic-off');
             }
-            socket.emit('toggle_transcription');
+            const mode = document.getElementById('transcriptionMode').value;
+            socket.emit('toggle_transcription', mode);
         });
 
         // Display the partial transcript in real-time
