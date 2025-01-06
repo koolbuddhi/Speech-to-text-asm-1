@@ -3,7 +3,12 @@ from flask_socketio import SocketIO, emit
 import assemblyai as aai
 import threading
 import asyncio
-from constant import assemblyai_api_key
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+assemblyai_api_key = os.getenv('ASSEMBLYAI_API_KEY')
+print(f"assemblyai_api_key>>>: {assemblyai_api_key}")
 
 app = Flask(__name__)
 socketio = SocketIO(app)

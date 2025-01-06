@@ -114,3 +114,4 @@ assemblyai_api_key
 
 # Local development
 *.local
+.vercel

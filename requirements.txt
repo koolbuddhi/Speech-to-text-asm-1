@@ -1,3 +1,7 @@
 flask
 flask_socketio
 assemblyai
+python-dotenv
+asyncio
+pyaudio
+assemblyai[extras]
