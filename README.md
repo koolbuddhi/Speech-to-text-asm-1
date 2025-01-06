@@ -14,3 +14,7 @@ Follow the provided guide to set up your development environment, integrate the 
 
 ## Call to Action:
 👉 **[Sign up for AssemblyAI's API](https://www.assemblyai.com/?utm_source=github&utm_medium=referral&utm_campaign=smitha)** and take your medical transcription projects to the next level with AI-powered transcription and analysis.
+
+## Small improvements 
+- Requirements.txt updated with dependencies
+- Dockerfile added
